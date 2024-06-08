@@ -1,0 +1,157 @@
+:root {
+    --primary:#480f2d;
+    --color1:#801a35;
+    --color2:#2b91c9;
+    --color3:#2bcac8;
+    --color4:#a7e2e2;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    height: 7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: linear-gradient(to right, );
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    background-color: #dbdbdb;
+
+}
+
+header > nav {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.static{
+    position: static;
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+button{
+    border: #fff;    
+}
+
+header>nav>ul{
+    list-style: none;
+}
+
+.container{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+
+.card{
+    background-color: #dbdbdb;
+    height: 20rem;
+    border-width: 0.5px;
+    border-style:groove;
+    border-color: #dfdfdf;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 2rem;
+    padding: 1rem;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.card img{
+    border-radius: 0.5rem;
+}
+
+.btnContPlus{
+    width: 100%;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btnPlus{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 50%;
+    height: 2rem;
+    border-width: 0.5px;
+    border-style:groove;
+    border-color: #dfdfdf;
+    border-radius: 0.5rem;
+    background-color: #01486e;
+    color: #dbdbdb;
+}
+
+.btnPlus:active{
+    background-color: #9e9e9e;
+}
+
+.cardCont{
+    width: 85%;
+    min-height: 3rem;
+    max-height: 18rem;
+    overflow-y: auto;
+}
+.btnCBuy{
+    background-color: #01486e;
+    width: 85%;
+    height: 1.8rem;
+    border-radius: 0.5rem;
+    color: #dbdbdb;
+}
+
+.btnCBuy:active{
+    background-color: #9e9e9e;
+}
+
+.pCard{
+    position: absolute;
+    top:4rem;
+    left: 70%;
+    width: 20%;
+    min-height: auto;
+    max-height: 25rem;
+    text-align: center;
+    background-color: #dfdfdf;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    border-radius: 0.5rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.separador{
+    width: 85%;
+    border-width: 0.5px;
+    border-style: groove;
+    border-color: #000000;
+}
